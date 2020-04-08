@@ -1,0 +1,15 @@
+.followText {
+  font-family: "Montserrat", sans-serif;
+  color: #8c19f7;
+}
+
+.btn-primary {
+  background-color: #23aa4e;
+  border-color: #177d37;
+}
+
+.customContainer {
+  margin-top: 100px;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=FollowButton.module.css.map */

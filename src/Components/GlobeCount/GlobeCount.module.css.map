@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAA;EACR,KAAK,ECFO,OAAO;EDGnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "GlobeCount.module.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "GlobeCount.module.css"
+}

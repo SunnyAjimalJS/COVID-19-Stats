@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,WAAW,ECHR,YAAY,EAAE,UAAU;EDI3B,KAAK,ECFS,OAAO;CDGxB;;AAED,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,OAAO;CACtB;;AAEH,AAAA,gBAAgB,CAAA;EACZ,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,eAAe;CAC1B",
+    "sources": [
+        "FollowButton.module.scss",
+        "../../../_variables.scss"
+    ],
+    "names": [],
+    "file": "FollowButton.module.css"
+}

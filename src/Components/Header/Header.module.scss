@@ -1,0 +1,43 @@
+@import "../../variables";
+
+.Header {
+  background-color: $secondary-color;
+  height: 140px;
+  width: 100%;
+  font-family: $font;
+  margin-top: -40px;
+}
+
+.headerText {
+    color: $primary-color;
+  }
+.smallHeader{
+      margin-top: -40px;
+      font-size: 18px;
+      text-align: center;
+  }
+
+.largeHeader {
+    font-weight: bolder;
+    font-size: 58px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px){
+    .headerText {
+    color: $primary-color;
+    font-size: 25px;
+    font-weight: bold;
+    height: 200px;
+    width: 100%;
+    // margin: 0 auto;
+    margin-top: -50px;
+    text-align: center;
+  }
+  .smallHeader{
+      margin-top: -40px;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  }

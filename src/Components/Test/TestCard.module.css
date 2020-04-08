@@ -1,0 +1,71 @@
+.scene {
+  width: 265px;
+  min-width: 265px;
+  height: 371px;
+  -webkit-perspective: 600px;
+          perspective: 600px;
+  margin: 10px;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  position: relative;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #19e8f7;
+}
+
+.card p {
+  color: #8c19f7;
+}
+
+.cardFront, .cardBack {
+  border: 3px solid #8c19f7;
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat, repeat;
+  position: absolute;
+  height: calc(100% - 12px);
+  width: calc(100% - 12px);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cardFront:hover, .cardBack:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 0 10px 20px 0 #1a191940, 0 10px 35px 0 #1a191940;
+          box-shadow: 0 10px 20px 0 #1a191940, 0 10px 35px 0 #1a191940;
+}
+
+.topSection {
+  margin-top: 20px;
+}
+
+.cardBack {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cardRotated {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cardNumber {
+  color: #19e8f7;
+  font-size: 30px;
+}
+/*# sourceMappingURL=TestCard.module.css.map */

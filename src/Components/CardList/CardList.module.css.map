@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EAEf,WAAW,ECRR,YAAY,EAAE,UAAU;CDS9B",
+    "sources": [
+        "CardList.module.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "CardList.module.css"
+}

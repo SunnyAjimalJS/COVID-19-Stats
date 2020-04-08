@@ -1,0 +1,80 @@
+@import"../../variables";
+
+$card-width: 265px;
+$card-height: $card-width * 3.5 / 2.5;
+$picture-width: 100px;
+$picture-height: $picture-width * 3.5 / 2.5;
+
+.scene {
+  width: $card-width;
+  min-width: $card-width;
+  height: $card-height;
+  perspective: 600px;
+  margin: 10px;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: $primary-color;
+  }
+
+  p{
+    color: $secondary-color;
+  }
+  
+}
+
+%card {
+  border: 3px solid $secondary-color;
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat, repeat;
+  position: absolute;
+  height: calc(100% - 12px);
+  width: calc(100% - 12px);
+  backface-visibility: hidden;
+
+  // &:hover {
+  //   transition: 0.4s;
+  //   box-shadow: 0 0 11px rgba(33,33,33,.2);
+  // }
+
+  &:hover {
+    transition: 0.4s;
+    box-shadow: 0 10px 20px 0 #1a191940,
+        0 10px 35px 0 #1a191940;
+}
+
+}
+
+.topSection{
+  margin-top: 20px;
+}
+
+.cardFront {
+  @extend %card;
+}
+
+.cardBack {
+  @extend %card;
+  transform: rotateY(180deg);
+}
+
+.cardRotated {
+  transform: rotateY(180deg);
+}
+
+.cardNumber{
+  color: $primary-color;
+  font-size: 20px;
+}

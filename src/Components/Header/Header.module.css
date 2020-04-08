@@ -1,0 +1,40 @@
+.Header {
+  background-color: #8c19f7;
+  height: 160px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.headerText {
+  color: #19e8f7;
+  font-size: 36px;
+  font-weight: bold;
+  height: 200px;
+  width: 100%;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.smallHeader {
+  margin-top: -40px;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .headerText {
+    color: #19e8f7;
+    font-size: 25px;
+    font-weight: bold;
+    height: 200px;
+    width: 100%;
+    margin-top: -50px;
+    text-align: center;
+  }
+  .smallHeader {
+    margin-top: -40px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */
